@@ -5,8 +5,8 @@ Create table User{
     PRIMARY KEY (PID) 
 }
 
-Create table password{
-	PID int,
+Create table Password{
+    PID int,
     password varchar(255),
-	PRIMARY KEY (PID)
+    PRIMARY KEY (PID)
 }
